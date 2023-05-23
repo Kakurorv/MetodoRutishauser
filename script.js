@@ -65,7 +65,7 @@ function calculateEigenvalues() {
 }
 
 function rutishauser(matrix) {
-  const tolerance = 0.0001;
+  const tolerance = 0.01;
   const maxIterations = 100;
 
   const n = matrix.length;
